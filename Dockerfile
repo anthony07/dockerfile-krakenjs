@@ -3,7 +3,7 @@ MAINTAINER anthony07
 
 # install dependencies
 RUN apt-get update
-RUN apt-get install -y --force-yes software-properties-common build-essential python
+RUN apt-get install -y --force-yes software-properties-common build-essential python git-core
 
 # install nodejs
 RUN add-apt-repository -y ppa:chris-lea/node.js
